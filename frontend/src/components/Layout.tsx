@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Sidebar from './Sidebar';
+import { Outlet } from 'react-router-dom';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -14,7 +15,7 @@ const Layout = ({ children }: LayoutProps) => {
         <Header />
 
         <main className="p-4 overflow-auto flex-grow-1">
-          {children}
+          <Outlet />
         </main>
       </div>
     </div>

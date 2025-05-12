@@ -9,13 +9,13 @@ interface DataPoint {
 }
 
 const data: DataPoint[] = [
-  { name: 'Mon', users: 4000, posts: 2400, applications: 2400 },
-  { name: 'Tue', users: 3000, posts: 1398, applications: 2210 },
-  { name: 'Wed', users: 2000, posts: 9800, applications: 2290 },
-  { name: 'Thu', users: 2780, posts: 3908, applications: 2000 },
-  { name: 'Fri', users: 1890, posts: 4800, applications: 2181 },
-  { name: 'Sat', users: 2390, posts: 3800, applications: 2500 },
-  { name: 'Sun', users: 3490, posts: 4300, applications: 2100 },
+  { name: 'Mon', users: 2, posts: 2, applications: 1 },
+  { name: 'Tue', users: 2, posts: 2, applications: 1 },
+  { name: 'Wed', users: 2, posts: 2, applications: 1 },
+  { name: 'Thu', users: 2, posts: 2, applications: 1 },
+  { name: 'Fri', users: 1, posts: 1, applications: 1 },
+  { name: 'Sat', users: 1, posts: 1, applications: 0 },
+  { name: 'Sun', users: 2, posts: 2, applications: 0 },
 ];
 
 const ActivityChart = () => {
