@@ -13,13 +13,13 @@ const Dashboard = () => {
     },
     { 
       title: 'New Posts', 
-      value: '5', 
+      value: '10', 
       icon: <MessageSquare size={20} />,
       change: { value: '5%', positive: true } 
     },
     { 
       title: 'Job Applications', 
-      value: '6', 
+      value: '5', 
       icon: <Briefcase size={20} />,
       change: { value: '3%', positive: false } 
     },
