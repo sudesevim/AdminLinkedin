@@ -5,43 +5,43 @@ import { Plus, Search } from 'lucide-react';
 const mockUsers = [
   {
     id: '1',
-    name: 'John Smith',
-    email: 'john.smith@example.com',
+    name: 'Sude Sevim',
+    email: 'sevimsu@mef.edu.tr',
     title: 'Senior Developer',
     status: 'Active' as const,
-    joined: 'Jan 12, 2023'
+    joined: 'May 13, 2025'
   },
   {
     id: '2',
-    name: 'Sarah Johnson',
-    email: 'sarah.j@example.com',
+    name: 'Gözde Yıldız',
+    email: 'yildizgoz@mef.edu.tr',
     title: 'Product Manager',
     status: 'Active' as const,
-    joined: 'Mar 4, 2023'
+    joined: 'May 13, 2025'
   },
   {
     id: '3',
-    name: 'Michael Brown',
-    email: 'michael.b@example.com',
+    name: 'Begüm Mina Bestelci',
+    email: 'bestelcib@mef.edu.tr',
     title: 'UX Designer',
     status: 'Pending' as const,
-    joined: 'Apr 15, 2023'
+    joined: 'May 13, 2025'
   },
   {
     id: '4',
-    name: 'Emily Chen',
-    email: 'emily.c@example.com',
+    name: 'Buse Dikici',
+    email: 'dikicib@mef.edu.tr',
     title: 'Marketing Specialist',
     status: 'Active' as const,
-    joined: 'May 22, 2023'
+    joined: 'May 13, 2025'
   },
   {
     id: '5',
-    name: 'James Wilson',
-    email: 'james.w@example.com',
+    name: 'Rabia Lafcı',
+    email: 'lafcir@mef.edu.tr',
     title: 'Data Analyst',
     status: 'Suspended' as const,
-    joined: 'Feb 8, 2023'
+    joined: 'May 13, 2025'
   }
 ];
 

@@ -7,25 +7,25 @@ const Dashboard = () => {
   const stats = [
     { 
       title: 'Total Users', 
-      value: '24,532', 
+      value: '8', 
       icon: <Users size={20} />,
       change: { value: '12%', positive: true } 
     },
     { 
       title: 'New Posts', 
-      value: '2,845', 
+      value: '5', 
       icon: <MessageSquare size={20} />,
       change: { value: '5%', positive: true } 
     },
     { 
       title: 'Job Applications', 
-      value: '1,257', 
+      value: '6', 
       icon: <Briefcase size={20} />,
       change: { value: '3%', positive: false } 
     },
     { 
       title: 'Engagement Rate', 
-      value: '24%', 
+      value: '10%', 
       icon: <BarChart size={20} />,
       change: { value: '2%', positive: true } 
     }
@@ -64,7 +64,7 @@ const Dashboard = () => {
                     </div>
                     <div>
                       <div className="fw-medium">
-                        {['John Doe', 'Alice Miller', 'Tom Smith', 'Rachel Kim'][index]}
+                        {['Sude Sevim', 'Gözde Yıldız', 'Begüm Mina Bestelci', 'Buse Dikici'][index]}
                       </div>
                       <div className="text-muted small">Joined {['2', '3', '4', '5'][index]} hours ago</div>
                     </div>

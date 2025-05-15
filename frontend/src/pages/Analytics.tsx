@@ -7,31 +7,31 @@ const Analytics = () => {
   const stats = [
     { 
       title: 'Total Users', 
-      value: '12', 
+      value: '8', 
       icon: <Users size={20} />,
       change: { value: '12%', positive: true } 
     },
     { 
       title: 'New Posts', 
-      value: '12', 
+      value: '5', 
       icon: <MessageSquare size={20} />,
       change: { value: '5%', positive: true } 
     },
     { 
       title: 'Job Applications', 
-      value: '5', 
+      value: '6', 
       icon: <Briefcase size={20} />,
       change: { value: '3%', positive: false } 
     },
     { 
       title: 'Engagement Rate', 
-      value: '24%', 
+      value: '10%', 
       icon: <BarChart size={20} />,
       change: { value: '2%', positive: true } 
     },
     {
       title: 'Active Sessions',
-      value: '12',
+      value: '2',
       icon: <TrendingUp size={20} />,
       change: { value: '8%', positive: true }
     },

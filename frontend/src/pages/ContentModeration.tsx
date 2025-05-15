@@ -4,24 +4,24 @@ import { Check, Trash, EyeOff } from 'lucide-react';
 const mockReports = [
   {
     id: '1',
-    user: 'John Doe',
+    user: 'Sude Sevim',
     content: 'This is a spam post!',
     reason: 'Spam',
-    reportedAt: '2024-06-01 10:23',
+    reportedAt: '2025-05-13 10:23',
   },
   {
     id: '2',
-    user: 'Alice Miller',
+    user: 'Gözde Yıldız',
     content: 'Inappropriate language in this comment.',
     reason: 'Inappropriate Language',
-    reportedAt: '2024-06-02 14:12',
+    reportedAt: '2025-05-13 14:12',
   },
   {
     id: '3',
-    user: 'Tom Smith',
+    user: 'Begüm Mina Bestelci',
     content: 'Offensive content here.',
     reason: 'Offensive Content',
-    reportedAt: '2024-06-03 09:45',
+    reportedAt: '2025-05-13 09:45',
   },
 ];
 
